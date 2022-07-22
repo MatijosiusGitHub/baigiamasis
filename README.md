@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Window komandineje eiluteje užkūriau Reacto aplikacija
+Salia root direktorijos failu folderyje susikuriau folderi Server
+Parsisiunčiau npm paketus
+Pasidariau duomenis ant porto 8080
+pasidariau serverį ant port 5000
+pasidariau Frontą ant porto 3000
+susivedziau duomenis i data.json
+susikūriau Login ir register formas su React
+
+
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
