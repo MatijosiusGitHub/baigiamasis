@@ -1,5 +1,5 @@
 # Window komandineje eiluteje užkūriau Reacto aplikacija
-Salia root direktorijos failu folderyje susikuriau folderi Server
+Salia Root direktorijos Appso failu folderyje susikuriau folderi Server, kuriame server.js, data.json, ir kiti package
 Parsisiunčiau npm paketus
 Pasidariau duomenis ant porto 8080
 pasidariau serverį ant port 5000
