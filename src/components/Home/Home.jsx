@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css'
 
 function Home({loggedIn, questions}) {
-  console.log(questions)
+
   return (
     <>
     {loggedIn ? (

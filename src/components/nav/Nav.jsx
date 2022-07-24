@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom'
 
 
 function Nav({loggedIn}) {
+  const logout = ()=>{
+    localStorage.removeItem("token")
+    
+  }
   return (
     <>
     {loggedIn ? (

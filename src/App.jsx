@@ -10,7 +10,7 @@ import Home from './components/Home/Home';
 function App() {
   const [loggedIn, setLoggedIn] = useState(false)
   const [questions, setQuestions] = useState([])
-  console.log(questions)
+  
   const getQuestions =() =>{
   fetch('/questions/')
   .then(res => res.json())
@@ -34,9 +34,9 @@ function App() {
   <>
     <Nav loggedIn={loggedIn}/>
     <Routes>
-      <Route path='/login' element={<Login setLoggedIn={setLoggedIn}/>}/>
+      <Route path='/login' element={<Login loggedIn={loggedIn} setLoggedIn={setLoggedIn}/>}/>
       <Route path='/register' element ={<Register/>}/> 
-      <Route path='/home' element={<Home questions={questions} loggedIn={loggedIn}/>} />
+      <Route path='/' element={<Home questions={questions} loggedIn={loggedIn}/>} />
    </Routes>
     
   </>

@@ -20,7 +20,7 @@ const loginUser=async(e)=>{
 .then(res=>res.json())
 .then (data=>{
   if(data.error) return alert(data.error)
-  console.log(data)
+  
   localStorage.setItem('token', data.token)
   setLoggedIn(true)
   navigate('/home', {replace: true})
