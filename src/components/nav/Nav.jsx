@@ -14,7 +14,7 @@ function Nav({loggedIn, setLoggedIn}) {
     <>
     {loggedIn ? (
         <nav>
-            <button>logout</button>
+            <button onClick={logout}>logout</button>
         </nav>
     ): (
         <nav>
