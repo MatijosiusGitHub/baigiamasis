@@ -16,16 +16,14 @@ function App() {
   .then(res => res.json())
   .then(questions => {
     setQuestions(questions)
-  },[])
+  })
   }
  
   useEffect(()=> {
     const token = localStorage.getItem('token')
     if(token) setLoggedIn(true);
-
-   getQuestions()
-
-  })
+getQuestions()
+  },[])
   
 
 

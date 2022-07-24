@@ -2,7 +2,6 @@ import React from 'react';
 import './Questions&Answers>.css'
 
 function Home({loggedIn, questions}) {
-  console.log(questions)
   return (
     <>
     {loggedIn ? (
