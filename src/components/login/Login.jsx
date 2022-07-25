@@ -31,7 +31,7 @@ const loginUser=async(e)=>{
     <div>
       <form onSubmit={loginUser}>
       <h1>login</h1>
-      <label htmlFor="username"> username</label>;
+      <label htmlFor="username"> username</label>
       <input type="text" name='username'/>
       <label htmlFor="password">password</label>
       <input type="password" name="password"/>

@@ -1,12 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Nav from './components/nav/Nav'
+import Nav from './components/nav/NavBar.css'
 import Register from './components/register/Register';
 import Login from './components/login/Login'
 import { useEffect, useState } from 'react';
 import Home from './components/Home/Home';
-
-
 function App() {
   const [loggedIn, setLoggedIn] = useState(false)
   const [questions, setQuestions] = useState([])
